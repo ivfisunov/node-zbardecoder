@@ -1,6 +1,6 @@
 {
   "name": "node-zbardecoder",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Bar/Qr code image decoder",
   "main": "index.js",
   "scripts": {
