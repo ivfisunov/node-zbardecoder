@@ -6,11 +6,11 @@ This barcode reader is a Node.js C++ addon wrapper over the open source ZBar and
 It works with a static image files, supports multiple barcodes on it and detects barcode types.
 
 ## Requirements
-----------------
+
 [ZBar code reader](http://zbar.sourceforge.net) and [OpenCV](https://opencv.org) have to be installed on your machine.
 
 ## Installation
-----------------
+
 Before ```npm install``` you need to install packages.
 
 For linux users:
@@ -26,7 +26,7 @@ After this install Barcode Reader
         npm i node-zbardecoder
 
 ## Usage
----------------
+
 ```js
 const bardecoder = require('node-zbardecoder');
 
@@ -45,7 +45,7 @@ console.log(result);
 
 
 ### Recommendations
----------------
+
 For better results use images no larger then 1500px on the long side and images with sharp and large barcodes.
 
 See the ```test``` folder for example.
