@@ -10,15 +10,24 @@
     "bar",
     "qr",
     "decoder",
-    "zbar"
+    "zbar",
+    "barcode",
+    "Code-128",
+    "EAN-13",
+    "Code-39",
+    "Codabar",
+    "Code-93",
+    "EAN-8",
+    "Standard/Industrial 2 of 5",
+    "Interleaved 2 of 5"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ifisunov/Project_2.git"
+    "url": "git+https://github.com/ivfisunov/node-zbardecoder"
   },
-  "homepage": "https://github.com/ifisunov/Project_2",
+  "homepage": "https://github.com/ivfisunov/node-zbardecoder#readme",
   "author": "Ivan Fisunov",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "bindings": "^1.5.0",
     "node-addon-api": "^2.0.0"

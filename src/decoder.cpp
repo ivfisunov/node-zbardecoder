@@ -1,3 +1,7 @@
+/*
+https://www.learnopencv.com/barcode-and-qr-code-scanner-using-zbar-and-opencv/
+*/
+
 #include <iostream>
 #include <string>
 #include <vector>

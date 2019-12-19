@@ -3,7 +3,7 @@ Barcode Reader
 
 This barcode reader is a Node.js C++ addon wrapper over the open source ZBar and OpenCV libraries.
 
-It works with a static image files, supports multiple barcodes on it and detects barcode types.
+It works with a static image files, supports multiple barcodes in the image and detects barcode types.
 
 ## Requirements
 
