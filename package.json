@@ -1,0 +1,26 @@
+{
+  "name": "node-zbardecoder",
+  "version": "0.0.1",
+  "description": "Bar/Qr code image decoder",
+  "main": "index.js",
+  "scripts": {
+    "install": "node-gyp configure && node-gyp build"
+  },
+  "keywords": [
+    "bar",
+    "qr",
+    "decoder",
+    "zbar"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifisunov/Project_2.git"
+  },
+  "homepage": "https://github.com/ifisunov/Project_2",
+  "author": "Ivan Fisunov",
+  "license": "ISC",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^2.0.0"
+  }
+}
