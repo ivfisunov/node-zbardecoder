@@ -39,7 +39,7 @@ string decode(string imagePath)
 
   // Convert image to grayscale
   Mat imGray;
-  cvtColor(im, imGray, CV_BGR2GRAY);
+  cvtColor(im, imGray, COLOR_BGR2GRAY);
 
   // Wrap image data in a zbar image
   Image image(im.cols, im.rows, "Y800", (uchar *)imGray.data, im.cols * im.rows);
